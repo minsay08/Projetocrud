@@ -1,11 +1,11 @@
 import mysql
 import mysql.connector
 
-conn = mysql.connector.conect(
-    username= 'yasmin',
+conn = mysql.connector.connect(
+    user= 'yasmin',
     host='localhost',
     password= 'projeto123',
-    db = 'projeto_crud_yr'
+    database = 'projeto_crud'
 )
 
 if conn.is_connected() :
