@@ -47,7 +47,7 @@ def main():
     janela.title("Formulario")
     janela.geometry("400x300")
 
-    titulo = Label(janela, text='CRUD', font=('Arial', 20))
+    titulo = Label(janela, text='Gerenciamento', font=('Arial', 20))
     titulo.pack(pady=30)
 
     nome = Label(janela, text="Nome:")

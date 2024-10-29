@@ -53,3 +53,16 @@ def listar_usuario():
     finally:
         if cursor:
             cursor.close()
+
+            
+            
+'''
+Listar usuário
+Não permitir campos vazios
+Criar o editar usuário
+Adicionar o pop up de feedback
+Verificação do email se ele já existir
+*criptografia de senha
+Pop up de lista vazia 
+Alterar senha ao invés de editar usuário
+'''
